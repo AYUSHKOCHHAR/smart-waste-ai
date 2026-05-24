@@ -61,7 +61,7 @@ const COCO_MAP = {
 
 // ── Gemini API (FREE) ─────────────────────────────────────────────────────────
 // Get your free key at: https://aistudio.google.com/apikey
-const GEMINI_API_KEY = "AIzaSyCO9o9O89CX_eCsqMUj7vhRkxiBM8pmS_I";
+const GEMINI_API_KEY = "AIzaSyCWCmYblgEpzwsXurzweIUnLlQx5yBaQdw";
 const GEMINI_URL =`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
 const API_SYSTEM = `You are an expert waste classification AI. When given an image or description, identify ALL waste items visible.
